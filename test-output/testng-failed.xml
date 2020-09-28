@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Check_Environment.Topic_02_Check_ENV">
+      <class name="Verify_login.Login">
         <methods>
-          <include name="TC_01_ValidateCurrentUrl"/>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="TC_02_ValidatePageTitle"/>
-          <include name="TC_03_LoginFormDisplayed"/>
+          <include name="beforeTest"/>
+          <include name="TC02_Login_InvailEmail"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- Check_Environment.Topic_02_Check_ENV -->
+      </class> <!-- Verify_login.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

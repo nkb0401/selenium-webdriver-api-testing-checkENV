@@ -1,4 +1,4 @@
-package Check_Environment;
+package b001_Check_Environment;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
