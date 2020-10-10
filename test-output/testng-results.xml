@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12598" started-at="2020-09-28T13:33:38Z" finished-at="2020-09-28T13:33:50Z">
+  <suite name="Default suite" duration-ms="20757" started-at="2020-10-10T06:28:48Z" finished-at="2020-10-10T06:29:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12598" started-at="2020-09-28T13:33:38Z" finished-at="2020-09-28T13:33:50Z">
-      <class name="b003_Textbox_textarea.TC_01">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:b003_Textbox_textarea.TC_01@62ee68d8]" name="beforeTest" is-config="true" duration-ms="11936" started-at="2020-09-28T13:33:38Z" finished-at="2020-09-28T13:33:50Z">
+    <test name="Default test" duration-ms="20757" started-at="2020-10-10T06:28:48Z" finished-at="2020-10-10T06:29:08Z">
+      <class name="b006_webbrower_element.Exercise">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:b006_webbrower_element.Exercise@62ee68d8]" name="beforeClass" is-config="true" duration-ms="5606" started-at="2020-10-10T06:28:48Z" finished-at="2020-10-10T06:28:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:b003_Textbox_textarea.TC_01@62ee68d8]" name="f" duration-ms="651" started-at="2020-09-28T13:33:50Z" finished-at="2020-09-28T13:33:50Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC01_verifyURL()[pri:0, instance:b006_webbrower_element.Exercise@62ee68d8]" name="TC01_verifyURL" duration-ms="5409" started-at="2020-10-10T06:28:53Z" finished-at="2020-10-10T06:28:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:b003_Textbox_textarea.TC_01@62ee68d8]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-09-28T13:33:50Z" finished-at="2020-09-28T13:33:50Z">
+        </test-method> <!-- TC01_verifyURL -->
+        <test-method status="PASS" signature="TC02_verifyTitle()[pri:0, instance:b006_webbrower_element.Exercise@62ee68d8]" name="TC02_verifyTitle" duration-ms="2214" started-at="2020-10-10T06:28:59Z" finished-at="2020-10-10T06:29:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- b003_Textbox_textarea.TC_01 -->
+        </test-method> <!-- TC02_verifyTitle -->
+        <test-method status="PASS" signature="TC03_verifyNagativeFunction()[pri:0, instance:b006_webbrower_element.Exercise@62ee68d8]" name="TC03_verifyNagativeFunction" duration-ms="4506" started-at="2020-10-10T06:29:01Z" finished-at="2020-10-10T06:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_verifyNagativeFunction -->
+        <test-method status="PASS" signature="TC04_verifyGetsource()[pri:0, instance:b006_webbrower_element.Exercise@62ee68d8]" name="TC04_verifyGetsource" duration-ms="3007" started-at="2020-10-10T06:29:05Z" finished-at="2020-10-10T06:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_verifyGetsource -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:b006_webbrower_element.Exercise@62ee68d8]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-10T06:29:08Z" finished-at="2020-10-10T06:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- b006_webbrower_element.Exercise -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
