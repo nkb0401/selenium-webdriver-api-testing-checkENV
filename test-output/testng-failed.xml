@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b006_webbrower_element.Exercise">
+      <class name="b003_Textbox_textarea.Create_login_edit">
         <methods>
-          <include name="TC03_verifyNagativeFunction"/>
-          <include name="TC04_verifyGetsource"/>
-          <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="TC_03_create_customer"/>
+          <include name="afterClass"/>
+          <include name="TC_04_edit_customer"/>
         </methods>
-      </class> <!-- b006_webbrower_element.Exercise -->
+      </class> <!-- b003_Textbox_textarea.Create_login_edit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
