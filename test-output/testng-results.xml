@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58188" started-at="2020-10-14T15:39:13Z" finished-at="2020-10-14T15:40:11Z">
+  <suite name="Default suite" duration-ms="65352" started-at="2020-10-17T07:01:24Z" finished-at="2020-10-17T07:02:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58188" started-at="2020-10-14T15:39:13Z" finished-at="2020-10-14T15:40:11Z">
-      <class name="b003_Textbox_textarea.Create_login_edit">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:b003_Textbox_textarea.Create_login_edit@5c7fa833]" name="beforeClass" is-config="true" duration-ms="11672" started-at="2020-10-14T15:39:13Z" finished-at="2020-10-14T15:39:25Z">
+    <test name="Default test" duration-ms="65352" started-at="2020-10-17T07:01:24Z" finished-at="2020-10-17T07:02:29Z">
+      <class name="b006_webbrower_element.Webelement">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="beforeClass" is-config="true" duration-ms="5774" started-at="2020-10-17T07:01:24Z" finished-at="2020-10-17T07:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC_01_register()[pri:0, instance:b003_Textbox_textarea.Create_login_edit@5c7fa833]" name="TC_01_register" duration-ms="11933" started-at="2020-10-14T15:39:25Z" finished-at="2020-10-14T15:39:37Z">
+        <test-method status="PASS" signature="TC_01_Element_display()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="TC_01_Element_display" duration-ms="36080" started-at="2020-10-17T07:01:30Z" finished-at="2020-10-17T07:02:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_register -->
-        <test-method status="PASS" signature="TC_02_login()[pri:0, instance:b003_Textbox_textarea.Create_login_edit@5c7fa833]" name="TC_02_login" duration-ms="6697" started-at="2020-10-14T15:39:37Z" finished-at="2020-10-14T15:39:44Z">
+        </test-method> <!-- TC_01_Element_display -->
+        <test-method status="PASS" signature="TC_02_Element_Displayed()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="TC_02_Element_Displayed" duration-ms="1194" started-at="2020-10-17T07:02:06Z" finished-at="2020-10-17T07:02:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_login -->
-        <test-method status="PASS" signature="TC_03_create_customer()[pri:0, instance:b003_Textbox_textarea.Create_login_edit@5c7fa833]" name="TC_03_create_customer" duration-ms="11567" started-at="2020-10-14T15:39:44Z" finished-at="2020-10-14T15:39:55Z">
+        </test-method> <!-- TC_02_Element_Displayed -->
+        <test-method status="PASS" signature="TC_03_Element_Enabled()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="TC_03_Element_Enabled" duration-ms="687" started-at="2020-10-17T07:02:07Z" finished-at="2020-10-17T07:02:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_create_customer -->
-        <test-method status="PASS" signature="TC_04_edit_customer()[pri:0, instance:b003_Textbox_textarea.Create_login_edit@5c7fa833]" name="TC_04_edit_customer" duration-ms="16286" started-at="2020-10-14T15:39:55Z" finished-at="2020-10-14T15:40:11Z">
+        </test-method> <!-- TC_03_Element_Enabled -->
+        <test-method status="PASS" signature="TC_04_Selected()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="TC_04_Selected" duration-ms="5096" started-at="2020-10-17T07:02:08Z" finished-at="2020-10-17T07:02:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_04_edit_customer -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:b003_Textbox_textarea.Create_login_edit@5c7fa833]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-10-14T15:40:11Z" finished-at="2020-10-14T15:40:11Z">
+        </test-method> <!-- TC_04_Selected -->
+        <test-method status="PASS" signature="TC_05_Register()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="TC_05_Register" duration-ms="15880" started-at="2020-10-17T07:02:13Z" finished-at="2020-10-17T07:02:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- b003_Textbox_textarea.Create_login_edit -->
+        </test-method> <!-- TC_05_Register -->
+        <test-method status="PASS" signature="afterClasss()[pri:0, instance:b006_webbrower_element.Webelement@6767c1fc]" name="afterClasss" is-config="true" duration-ms="625" started-at="2020-10-17T07:02:29Z" finished-at="2020-10-17T07:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClasss -->
+      </class> <!-- b006_webbrower_element.Webelement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
