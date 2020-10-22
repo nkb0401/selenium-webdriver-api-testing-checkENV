@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b006_webbrower_element.Webelement">
+      <class name="b007_dropdown.Dropdown_custom">
         <methods>
           <include name="afterClass"/>
-          <include name="TC01_verifyURL"/>
           <include name="beforeClass"/>
+          <include name="TC_01_Jquery"/>
         </methods>
-      </class> <!-- b006_webbrower_element.Webelement -->
+      </class> <!-- b007_dropdown.Dropdown_custom -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
