@@ -1,4 +1,4 @@
-package b007_Textbox_textarea;
+package b006_Textbox_textarea;
 
 import org.testng.annotations.Test;
 

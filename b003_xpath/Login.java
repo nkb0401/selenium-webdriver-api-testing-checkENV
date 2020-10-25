@@ -1,4 +1,4 @@
-package b002_Verify_login;
+package b003_xpath;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
@@ -53,7 +53,7 @@ public class Login {
 		//steps		
 		driver.findElement(By.xpath("//div[@class=\"footer\"]//a[text()=\"My Account\"]")).click();
 		driver.findElement(By.id("email")).sendKeys("bangkhoa.nguyen@dxc.com");
-		driver.findElement(By.name("login[password]")).sendKeys("123");
+		driver.findElement(By.name("login[password]")).sendKeys("123123");
 		driver.findElement(By.name("send")).click();
 		//verify		
 		Assert.assertEquals(driver.findElement(By.id("advice-validate-password-pass")).getText(), "Please enter 6 or more characters without leading or trailing spaces.");

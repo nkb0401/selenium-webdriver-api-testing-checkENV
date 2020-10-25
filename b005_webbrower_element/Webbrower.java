@@ -1,4 +1,4 @@
-package b006_webbrower_element;
+package b005_webbrower_element;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
