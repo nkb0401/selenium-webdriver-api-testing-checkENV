@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b003_xpath.Login">
+      <class name="b007_dropdown.Dropdown_custom">
         <methods>
-          <include name="TC02_Login_InvailEmail"/>
-          <include name="TC03_Login_InvailPass"/>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="TC_06_Advance"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- b003_xpath.Login -->
+      </class> <!-- b007_dropdown.Dropdown_custom -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

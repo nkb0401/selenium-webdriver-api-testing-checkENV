@@ -1,41 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79274" started-at="2020-10-25T07:59:27Z" finished-at="2020-10-25T08:00:47Z">
+  <suite name="Default suite" duration-ms="51472" started-at="2020-11-01T14:38:42Z" finished-at="2020-11-01T14:39:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79274" started-at="2020-10-25T07:59:27Z" finished-at="2020-10-25T08:00:47Z">
-      <class name="b003_xpath.Login">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="beforeTest" is-config="true" duration-ms="9399" started-at="2020-10-25T07:59:27Z" finished-at="2020-10-25T07:59:37Z">
+    <test name="Default test" duration-ms="51472" started-at="2020-11-01T14:38:42Z" finished-at="2020-11-01T14:39:34Z">
+      <class name="b007_dropdown.Dropdown_custom">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:b007_dropdown.Dropdown_custom@5419f379]" name="beforeClass" is-config="true" duration-ms="5599" started-at="2020-11-01T14:38:42Z" finished-at="2020-11-01T14:38:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="TC01_Login_Empty_Email_Pass()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="TC01_Login_Empty_Email_Pass" duration-ms="5519" started-at="2020-10-25T07:59:37Z" finished-at="2020-10-25T07:59:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC01_Login_Empty_Email_Pass -->
-        <test-method status="FAIL" signature="TC02_Login_InvailEmail()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="TC02_Login_InvailEmail" duration-ms="35510" started-at="2020-10-25T07:59:42Z" finished-at="2020-10-25T08:00:18Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="TC_06_Advance()[pri:0, instance:b007_dropdown.Dropdown_custom@5419f379]" name="TC_06_Advance" duration-ms="45283" started-at="2020-11-01T14:38:48Z" finished-at="2020-11-01T14:39:33Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: #advice\-required\-entry\-email
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//option/parent::select/following-sibling::div"}
+  (Session info: chrome=86.0.4240.111)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'LAPTOP-7MH8S9EP', ip: '192.168.1.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\BANG\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d4a0d2e8-dd1c-4ba5-9c07-2a82e0255c5f
-*** Element info: {Using=id, value=advice-required-entry-email}]]>
+System info: host: 'LAPTOP-7MH8S9EP', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\BANG\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 743f9e0e590b9f1fd3a78d94ab5ec703
+*** Element info: {Using=xpath, value=//option/parent::select/following-sibling::div}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #advice\-required\-entry\-email
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//option/parent::select/following-sibling::div"}
+  (Session info: chrome=86.0.4240.111)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'LAPTOP-7MH8S9EP', ip: '192.168.1.124', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10640, moz:profile: C:\Users\BANG\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d4a0d2e8-dd1c-4ba5-9c07-2a82e0255c5f
-*** Element info: {Using=id, value=advice-required-entry-email}
+System info: host: 'LAPTOP-7MH8S9EP', ip: '192.168.1.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\BANG\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 743f9e0e590b9f1fd3a78d94ab5ec703
+*** Element info: {Using=xpath, value=//option/parent::select/following-sibling::div}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -47,10 +45,11 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at b003_xpath.Login.TC02_Login_InvailEmail(Login.java:48)
+at b007_dropdown.Dropdown_custom.selectMultiInDropDown(Dropdown_custom.java:135)
+at b007_dropdown.Dropdown_custom.TC_06_Advance(Dropdown_custom.java:96)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -81,65 +80,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC02_Login_InvailEmail -->
-        <test-method status="FAIL" signature="TC03_Login_InvailPass()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="TC03_Login_InvailPass" duration-ms="6239" started-at="2020-10-25T08:00:18Z" finished-at="2020-10-25T08:00:24Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Please enter 6 or more characters without leading or trailing spaces.] but found []]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please enter 6 or more characters without leading or trailing spaces.] but found []
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at b003_xpath.Login.TC03_Login_InvailPass(Login.java:59)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- TC_06_Advance -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:b007_dropdown.Dropdown_custom@5419f379]" name="afterClass" is-config="true" duration-ms="574" started-at="2020-11-01T14:39:33Z" finished-at="2020-11-01T14:39:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC03_Login_InvailPass -->
-        <test-method status="PASS" signature="TC04_Login_IncorrectEmail_and_vaild_pass()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="TC04_Login_IncorrectEmail_and_vaild_pass" duration-ms="10905" started-at="2020-10-25T08:00:24Z" finished-at="2020-10-25T08:00:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_Login_IncorrectEmail_and_vaild_pass -->
-        <test-method status="PASS" signature="TC05_Login_VaildEmail_and_incorrect_pass()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="TC05_Login_VaildEmail_and_incorrect_pass" duration-ms="10850" started-at="2020-10-25T08:00:35Z" finished-at="2020-10-25T08:00:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC05_Login_VaildEmail_and_incorrect_pass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:b003_xpath.Login@7dc7cbad]" name="afterTest" is-config="true" duration-ms="766" started-at="2020-10-25T08:00:46Z" finished-at="2020-10-25T08:00:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- b003_xpath.Login -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- b007_dropdown.Dropdown_custom -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

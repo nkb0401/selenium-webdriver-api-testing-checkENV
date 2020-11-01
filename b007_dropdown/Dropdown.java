@@ -1,3 +1,4 @@
+// Default dropdown list: the html = select -> option -> co the su dung selenium xu ly
 package b007_dropdown;
 
 import org.testng.annotations.Test;
@@ -12,7 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Dropdowm {
+public class Dropdown {
 	WebDriver driver;
 	Select select;
 	String project_location = System.getProperty("user.dir");
