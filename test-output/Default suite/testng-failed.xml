@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="b009_alert.Alert_default">
+      <class name="b012_iframe_frame_window.iframe_frame_window">
         <methods>
+          <include name="TC_02_Window_Tab"/>
           <include name="afterClass"/>
-          <include name="TC03_alert_prompt"/>
-          <include name="TC01_alert_accept"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- b009_alert.Alert_default -->
+      </class> <!-- b012_iframe_frame_window.iframe_frame_window -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
