@@ -19,7 +19,7 @@ public class JS_executor {
 
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.chrome.driver", ".\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", ".\\lib\\Brower\\chromedriver.exe");
 		driver = new ChromeDriver();
 		jsExecutor = (JavascriptExecutor) driver;
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
